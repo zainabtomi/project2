@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e4acac;
+    color: rgb(226, 93, 93);
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: rgb(7, 5, 5);
+    text-decoration: none;
+    padding: 18px;
+    transition: background-color 0.4s;
+  }
+  
+  nav a.active {
+    background-color: #be5a5a;
+    border-radius: 7px;
+  }
+  
+  section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    height: 100vh;
+    background-color: #dd7575;
+  }
+  
+  
+  
+  h2 {
+    margin-top: 0;
+  }
+  
